@@ -8,16 +8,16 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 #Откроем браузер Мозилла
-@given('browser Firefox')
-def step(context):
-    context.browser = webdriver.Firefox()
-    context.browser.maximize_window()
+#@given('browser Firefox')
+#def step(context):
+    #context.browser = webdriver.Firefox()
+    #context.browser.maximize_window()
 
 #Откроем браузер Crome
-#@given('browser Chrome')
-#def step(context):
-    #context.browser = webdriver.Chrome()
-    #context.browser.maximize_window()
+@given('browser Chrome')
+def step(context):
+    context.browser = webdriver.Chrome()
+    context.browser.maximize_window()
 
 #Введем текст в строку поиска
 @then('enter text Google "{text}"')

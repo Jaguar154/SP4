@@ -4577,3 +4577,17 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1679588276163	geckodriver	INFO	Listening on 127.0.0.1:54004
+1679588279387	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54005" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\T33C6~1.STU\\AppData\\Local\\Temp\\rust_mozprofilepnWrsY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679588279923	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679588279931	Marionette	INFO	Listening on port 54012
+Read port: 54012
+WebDriver BiDi listening on ws://127.0.0.1:54005
+1679588280102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\T33C6~1.STU\\AppData\\Local\\Temp\\rust_mozprofilepnWrsY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54005/devtools/browser/5901632d-38ad-48e3-82a2-5dd7690b0a03
+1679588352165	Marionette	INFO	Stopped listening on port 54012
+Dynamically enable window occlusion 1
